@@ -1,0 +1,23 @@
+/* Address.module.css */
+
+.address_form {
+  display: flex;
+  margin: 1rem;
+}
+
+.form_label {
+  margin: 0rem 1rem;
+}
+
+.form_input {
+  padding: 10px 50px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.city_input {
+  padding: 10px 12px;
+  width: 100%;
+  border-radius: 4px;
+  margin-right: 3rem; /* Adjust margin as needed */
+}

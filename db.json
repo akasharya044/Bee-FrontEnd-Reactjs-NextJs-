@@ -1,0 +1,137 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "anand",
+      "email": "anand@gmail.com",
+      "phone":7843874345,
+     "startDate": "2023-10-10T14:30:00.000Z",
+      "endDate": "2023-10-12T15:00:00.000Z",
+      "address":"Delhi",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 2,
+      "name": "rajat",
+      "email": "rajat@gmail.com",
+      "phone":7843874345,
+      "date": "2023-10-03T18:55:00.000Z",
+     "startDate": "2023-10-15T10:00:00.000Z",
+      "endDate": "2023-10-15T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"Diploma"
+    },
+    {
+      "id": 3,
+      "name": "aman",
+      "email": "typicode",
+      "phone":7843874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 4,
+      "name": "ram",
+      "email": "typicode",
+      "phone":7743874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201201,
+      "qualification":"BCA"
+    },
+    {
+      "id": 5,
+      "name": "anand2",
+      "email": "typicode@gmail.com",
+      "phone":8843874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 6,
+      "name": "aman2",
+      "email": "typicode2@gmail.com",
+      "phone":7843874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 7,
+      "name": "ram2",
+      "email": "typicode",
+      "phone":7943874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 8,
+      "name": "anand3",
+      "email": "typicode@gmail.com",
+      "phone":6343874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 9,
+      "name": "aman9",
+      "email": "typicode2@gmail.com",
+      "phone":7843874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 10,
+      "name": "ram10",
+      "email": "typicode",
+      "phone":7943874345,
+     "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"BCA"
+    },
+    {
+      "id": 11,
+      "name": "anand11",
+      "email": "typicode@gmail.com",
+      "phone":6343874345,
+      "startDate": "2023-10-18T10:00:00.000Z",
+      "endDate": "2023-10-25T10:00:00.000Z",
+      "address":"Noida",
+      "designation":"developer",
+      "pincode":201301,
+      "qualification":"BCA"
+    }
+  ]
+
+ 
+}

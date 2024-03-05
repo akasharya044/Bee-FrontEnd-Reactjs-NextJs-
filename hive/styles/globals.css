@@ -1,0 +1,41 @@
+/* apps/myapp/styles/globals.css */
+
+.layout {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'sidebar body'
+    'footer footer';
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: black;
+  color: white;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: white;
+}
+
+.body {
+  grid-area: body;
+  background-color: offwhite;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: offwhite;
+}
+
+.btn-login {
+  padding: 0px 5px 0px 5px;
+  background-color: azure;
+}
+
+/* .box{
+  background-color: blueviolet!important;
+} */

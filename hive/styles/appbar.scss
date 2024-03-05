@@ -1,0 +1,97 @@
+/* styles.scss */
+
+.AppBar {
+    background-color: blueviolet !important;
+}
+.sidebar .css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    background-color: #ffffff !important;
+}
+
+
+.actionsColumn {
+    position: sticky;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+  }
+
+  .idColumn {
+    position: sticky;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+  }
+
+  .edit-button {
+   
+  
+    &:hover {
+      color: green;
+      background-color: lightgreen;
+    }
+  }
+  
+  .view-button {
+    
+  
+    &:hover {
+      color: blue;
+      background-color: lightblue;
+    }
+  }
+  
+  .delete-button {
+    
+  
+    &:hover {
+      color: red;
+      background-color: lightcoral;
+    }
+  }
+  
+
+
+
+  // UserModal.scss
+
+.user-modal {
+  .centered-title {
+    text-align: center;
+}
+
+  .MuiDialogContent-root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px;
+
+      div {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: 100%;
+          max-width: 400px;
+          background-color: #f0f0f0;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+          p {
+              margin: 0;
+              padding: 5px 0;
+              font-size: 1.1em;
+              color: #333;
+
+              strong {
+                  color: #555;
+                  margin-right: 10px;
+              }
+          }
+      }
+  }
+
+  .MuiDialogActions-root {
+      justify-content: center;
+      padding: 20px;
+  }
+}

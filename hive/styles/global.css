@@ -1,0 +1,210 @@
+.header {
+  grid-area: header;
+  background-color: black;
+  color: white;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: white;
+}
+
+.body {
+  grid-area: body;
+  background-color: offwhite;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: offwhite;
+}
+
+.btn-login {
+  padding: 0px 5px 0px 5px;
+  background-color: azure;
+}
+/* .header {
+
+  height: 65px;
+  background-color:blueviolet !important;
+} */
+
+.dashsidebar {
+  background-color: white !important;
+  height: 665px;
+  width: 60px;
+}
+
+.home:hover {
+  color: Purple;
+}
+
+.book:hover {
+  color: Purple;
+}
+
+.order:hover {
+  color: Purple;
+}
+
+.admin:hover {
+  color: Purple;
+}
+
+.cart:hover {
+  color: Purple;
+}
+
+.list:hover {
+  color: Purple;
+}
+
+.mail:hover {
+  color: Purple;
+}
+
+.map:hover {
+  color: Purple;
+}
+.tula:hover {
+  color: Purple;
+}
+
+.doc:hover {
+  color: Purple;
+}
+/* //scss for icons
+$items: (
+  home: (-60px, 0),
+  book: (-160px, -23px),
+  order: (-245px, -23px),
+  admin: (-330px, -24px),
+  cart: (-425px, -25px),
+  list: (-515px, -23px),
+  mail: (-605px, -23px),
+  map: (-700px, -25px),
+  tula: (-785px, -24px),
+  doc: (-870px, -24px)
+);
+
+$hover-color: purple;
+$selection-bg: #fff;
+$selection-color: #ff0000;
+
+@each $name, $margins in $items {
+  .#{$name} {
+    margin-bottom: nth($margins, 1);
+    margin-left: nth($margins, 2);
+
+    &:hover {
+      color: $hover-color;
+    }
+
+    &::selection {
+      background: $selection-bg;
+      color: $selection-color;
+    }
+  }
+}
+ */
+
+.container {
+  /* Add any styles you want for the container */
+  position: absolute;
+}
+
+.menu {
+  position: absolute;
+  top: 67px;
+  left: 30px;
+  background-color: white;
+  height: 670px;
+  width: 130px;
+  box-shadow: grey;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: grey;
+
+      &:hover {
+        color: grey;
+      }
+    }
+  }
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.maintable {
+  background-color: aqua;
+}
+
+/* table thead th,
+table thead th div,
+table tbody td.MuiTableCell-root,
+table tbody td div {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+} */
+
+.react-beautiful-dnd-dragging {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.re-resizable-handle {
+  display: block;
+  background: #ccc;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.outlet_header {
+  padding-top: 10px;
+  background-color: white !important;
+  margin-top: 0px !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.outlet_header h3 {
+  padding-bottom: 20px;
+}
+
+.box_shadow {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select {
+  /* visibility: hidden !important; */
+  display: none !important;
+}
