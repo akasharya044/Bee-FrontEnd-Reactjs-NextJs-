@@ -298,7 +298,7 @@ const deletedata = async (id) =>{
                 label="Selected Name"
                 variant="standard"
                 value={selnameid}
-                readOnly // Make the TextField read-only
+               
               />
             </Box>
           </Grid>

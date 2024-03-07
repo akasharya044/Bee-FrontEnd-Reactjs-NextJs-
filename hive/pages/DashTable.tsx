@@ -49,6 +49,7 @@ function CustTable() {
                   <TableCell>{row.total}</TableCell>
                   <TableCell>{row.allocation}</TableCell>
                   <TableCell>{row.recce}</TableCell>
+                  
                 </TableRow>
               ))}
             </TableBody>

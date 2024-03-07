@@ -21,7 +21,9 @@ const EmailTemplate = () => {
 
   const fetchData = async () => {
     try {
-      const response = await apiservice.fetchData('http://4.224.102.99/hiveconnect/requestmanagement/activity');
+      //const url = 'http://20.207.68.38/hiveconnect/configuration/products'
+     const response = await apiservice.fetchData('http://4.224.102.99/hiveconnect/requestmanagement/activity');
+      //const response = await apiservice.fetchData(url);
       setProjects(response.data);
     } catch (error) {
       console.error(error);
@@ -30,13 +32,15 @@ const EmailTemplate = () => {
 
   };
 
+  
+
   return (
     <>
       <MainLayout>
-        <h1>Request Mangement Activity</h1>
+        <h1>Request Management Activity</h1>
 
-        <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        <TableContainer className="table-responsive">
+          <Table className="cust-table" aria-label="simple table">
             <TableHead>
               <TableRow>
                 <TableCell>ID</TableCell>
@@ -67,18 +71,18 @@ const EmailTemplate = () => {
                   <TableCell>{project.description}</TableCell>
                   <TableCell>{project.projectType.id}</TableCell>
                   <TableCell>{project.projectType.name}</TableCell>
-                   <TableCell>{project.serviceType.id}</TableCell>
-                   <TableCell>{project.serviceType.name}</TableCell>
-                   <TableCell>{project.emailTemplateId}</TableCell>
-                   <TableCell>{project.lifeCycleStage.id}</TableCell>
-                   <TableCell>{project.lifeCycleStage.name}</TableCell>
-                   <TableCell>{project.causes}</TableCell>
-                   <TableCell>{project.mandatory}</TableCell>
-                   <TableCell>{project.gsaApplicable}</TableCell>
-                   <TableCell>{project.quantityReq}</TableCell>
-                   <TableCell>{project.projectTypeSlug}</TableCell>
-                   <TableCell></TableCell>
-                  
+                  <TableCell>{project.serviceType.id}</TableCell>
+                  <TableCell>{project.serviceType.name}</TableCell>
+                  <TableCell>{project.emailTemplateId}</TableCell>
+                  <TableCell>{project.lifeCycleStage.id}</TableCell>
+                  <TableCell>{project.lifeCycleStage.name}</TableCell>
+                  <TableCell>{project.causes}</TableCell>
+                  <TableCell>{project.mandatory}</TableCell>
+                  <TableCell>{project.gsaApplicable}</TableCell>
+                  <TableCell>{project.quantityReq}</TableCell>
+                  <TableCell>{project.projectTypeSlug}</TableCell>
+                  <TableCell></TableCell>
+
                   {/* Add more cells as needed */}
                 </TableRow>
               ))}
